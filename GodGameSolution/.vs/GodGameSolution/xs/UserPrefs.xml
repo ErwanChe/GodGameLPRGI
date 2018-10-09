@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{38A212EE-6F92-44C1-84DD-71E22C55F194}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GodGame/GenreVivant/ProcaryotesUnicellulaires.cs">
+    <Files>
+      <File FileName="GodGame/Program.cs" Line="13" Column="1" />
+      <File FileName="GodGame/GenreVivant/ProcaryotesUnicellulaires.cs" Line="3" Column="19" />
+      <File FileName="GodGame/GenreVivant/EucaryotesUnicellulaire.cs" Line="2" Column="1" />
+      <File FileName="GodGame/GenreVivant/EucaryotesMulticellulaires.cs" Line="8" Column="10" />
+      <File FileName="GodGame/Regne/Bacterie.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GodGame PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
