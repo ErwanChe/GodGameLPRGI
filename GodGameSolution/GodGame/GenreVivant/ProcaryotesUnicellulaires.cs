@@ -1,5 +1,6 @@
 ﻿using System;
-namespace GodGame
+
+namespace GodGame.GenreVivant
 {
     public class ProcaryotesUnicellulaires
     {

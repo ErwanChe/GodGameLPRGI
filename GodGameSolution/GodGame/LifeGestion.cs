@@ -2,7 +2,7 @@
 
 namespace GodGame
 {
-    class Program
+    class LifeGestion
     {
         static void Main(string[] args)
         {
