@@ -1,13 +1,14 @@
 ﻿using System;
-namespace GodGame.Regne
+namespace GodGame.Espece
 {
-    public class Vegetal
+    public class Archee
     {
         private String typeName;
         private byte populationNumber;
         private String description;
+        private String raceName;
 
-        public Vegetal()
+        public Archee()
         {
         }
     }
