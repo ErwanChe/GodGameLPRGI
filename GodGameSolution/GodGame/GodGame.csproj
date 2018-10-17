@@ -8,7 +8,6 @@
   <ItemGroup>
     <Folder Include="GenreVivant\" />
     <Folder Include="Regne\" />
-    <Folder Include="Espece\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="GenreVivant\EucaryotesUnicellulaire.cs" />
