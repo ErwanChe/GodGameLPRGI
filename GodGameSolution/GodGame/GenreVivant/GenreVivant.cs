@@ -2,6 +2,7 @@
 namespace GodGame.GenreVivant
 {
     // à passer en abstract 
+    
     public enum GenreVivant 
     {
         ProcaryotesUniCellulaires,

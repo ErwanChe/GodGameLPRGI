@@ -5,9 +5,7 @@ using System.Text;
 namespace GodGame
 {
     class GestionDeVie
-    {
-
-       
+    {  
 
         public void Move()
         {
@@ -28,6 +26,5 @@ namespace GodGame
         {
 
         }
-
     }
 }

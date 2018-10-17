@@ -24,8 +24,21 @@ namespace GodGame.Regne
             this.PopulationNumber = PopulationNumber + 1;
             //this.Sexe = SexeEnum.Femelle; 
         }
-            
-        enum RaceAnimal
+           
+          
+        public string Sexe { get => sexe; set => sexe = value; }
+        public string Name { get => name; set => name = value; }
+        public int PopulationNumber { get => populationNumber; set => populationNumber = value; }
+
+        public Animal(String p_name, String p_sexe)
+        {
+            this.Name = p_name;
+            this.Sexe = p_sexe;
+            this.PopulationNumber = PopulationNumber + 1;
+
+        }
+
+        enum EspeceAnimal
         {
             Chien,
             Chat,
