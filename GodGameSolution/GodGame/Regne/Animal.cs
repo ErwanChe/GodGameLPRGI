@@ -7,6 +7,25 @@ namespace GodGame.Regne
         private String name;
         private String sexe;
 
+        public string Name { get => name; set => name = value; }
+        public int PopulationNumber { get => populationNumber; set => populationNumber = value; }
+        public string Sexe { get => sexe; set => sexe = value; }
+
+        //liste des premiers animaux:
+
+        List<Animal> AnimalList = new List<Animal>(); 
+
+        AnimalList.Add(""); 
+
+
+        public Animal(String p_name )
+        {
+            this.Name = p_name;
+            this.PopulationNumber = PopulationNumber + 1;
+            //this.Sexe = SexeEnum.Femelle; 
+        }
+           
+          
         public string Sexe { get => sexe; set => sexe = value; }
         public string Name { get => name; set => name = value; }
         public int PopulationNumber { get => populationNumber; set => populationNumber = value; }
@@ -25,6 +44,12 @@ namespace GodGame.Regne
             Chat,
             Humain,
             Dauphin,
+        }
+
+        enum SexeEnum
+        {
+            Femelle,
+            Mâle , 
         }
 
         public void TosTring()

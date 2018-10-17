@@ -1,6 +1,7 @@
 ﻿using System;
 namespace GodGame.GenreVivant
 {
+    // à passer en abstract 
     
     public enum GenreVivant 
     {
@@ -9,4 +10,5 @@ namespace GodGame.GenreVivant
         EucaryotesMultiCellulaires,
 
     }
+
 }
