@@ -681,28 +681,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/rewan/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\heloi\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rewan/Dropbox/Sauvegarde/LPRGI/Delaporte/GODGame/Projects/GodGameSolution/GodGame/GodGame.csproj",
+      "projectUniqueName": "C:\\Users\\heloi\\Desktop\\LPRGI\\Semestre 1\\GodGameLPRGI\\GodGameSolution\\GodGame\\GodGame.csproj",
       "projectName": "GodGame",
-      "projectPath": "/Users/rewan/Dropbox/Sauvegarde/LPRGI/Delaporte/GODGame/Projects/GodGameSolution/GodGame/GodGame.csproj",
-      "packagesPath": "/Users/rewan/.nuget/packages/",
-      "outputPath": "/Users/rewan/Dropbox/Sauvegarde/LPRGI/Delaporte/GODGame/Projects/GodGameSolution/GodGame/obj",
+      "projectPath": "C:\\Users\\heloi\\Desktop\\LPRGI\\Semestre 1\\GodGameLPRGI\\GodGameSolution\\GodGame\\GodGame.csproj",
+      "packagesPath": "C:\\Users\\heloi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\heloi\\Desktop\\LPRGI\\Semestre 1\\GodGameLPRGI\\GodGameSolution\\GodGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/rewan/.config/NuGet/NuGet.Config"
+        "C:\\Users\\heloi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -720,9 +722,8 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
-            "version": "2.1.0",
+            "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
